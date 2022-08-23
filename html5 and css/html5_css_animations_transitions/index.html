@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en-usa">
+    <head>
+        <title>Animations & Transitions</title>
+        <style>
+            .progress_main{
+                width: 50%;
+                margin: auto;
+                border-color: black;
+                border-width: 1px 1px 1px 1px;
+                border-style: solid;
+               
+                background-color: gainsboro;
+               
+                height: 50px;
+                padding: 2px;
+                border-radius: 10px;
+            }
+            .progress {
+                width: 50%;
+                
+                background-color: red;
+                height:100% ;
+                /* border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px; */
+                border-radius: 10px;
+
+                transition-property: width;
+                transition-duration: 1s;
+            }
+
+            .progress:hover {
+                width: 100%;
+                background-color: blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="progress_main">
+            <div class="progress"></div>
+        </div>
+    </body>
+</html>

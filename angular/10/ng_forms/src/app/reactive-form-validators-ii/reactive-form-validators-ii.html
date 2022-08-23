@@ -1,0 +1,23 @@
+<!-- Validators condtional statenets-->
+<div style="margin: 20px; background-color: lightblue;">
+  <p style="font-weight: 300;color: white;">Reactive Form Validators II:</p>
+  <form [formGroup]="login" (ngSubmit)="showConsole()">
+
+      <input type="text" placeholder="Name"  style="margin: 10px;" formControlName="name">
+
+      <span *ngIf="login.controls.name.errors?.required" style="color: white;">
+           The name is required
+      </span>
+
+      <input type="text" placeholder="Password" style="margin: 10px;" formControlName="password">
+
+      <span *ngIf="login.controls.password.hasError('required')" style="color: white;">
+        The password is required
+     </span>
+
+      <span *ngIf="login.valid" style="color: white;">
+        <input type="submit" value="Submit">
+    </span>
+
+  </form>
+</div>

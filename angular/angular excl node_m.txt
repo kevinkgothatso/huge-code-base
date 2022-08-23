@@ -1,0 +1,1 @@
+the following angular apps, dont have node modules

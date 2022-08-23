@@ -1,0 +1,6 @@
+<div class="main">
+    <div *ngFor="let social of socails, trackBy:trackByMethod">
+        id: {{social.id}} name:{{social.name}}
+    </div>
+    <input type="button" value="Update Socails" (click)="update()">
+</div>

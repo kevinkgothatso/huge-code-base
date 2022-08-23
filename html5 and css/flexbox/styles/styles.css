@@ -1,0 +1,34 @@
+.flex-container{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.items{
+    background-color: blue;
+    color: white;
+    width: 19%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (min-width:0px ) and (max-width:472px){
+    .items{
+        background-color: tomato;
+        width: 49%;
+
+    }
+}
+
+@media (max-width:272px){
+    .items{
+        background-color: blueviolet;
+        width: 99%;
+
+    }
+}

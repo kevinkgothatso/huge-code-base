@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Handlers</title>
+      
+      <style>
+         .main{
+              background-color: antiquewhite;
+              margin: auto;
+             width: 50%;
+          }
+          
+          .btn{
+               margin: auto;
+    color: white;
+    background-color: black !important;
+    border-radius: 10%;
+    padding-bottom: 5px;
+    width: 170px !important;
+    left: 70px;
+    position: relative;
+        cursor: pointer;
+
+             
+          }
+      </style>
+    </head>
+    <body>
+      
+        <div class="main">
+             <!--HTML handlers-->
+            <div class="main">
+                 <button type="button" class="btn" id="htmlEvent" onclick="htmlEventFunct()" >HTML Handler</button>
+            </div>
+            <!---DOM event listeners-->
+              <div class="main">
+                 <button class="btn" id="domEvent">DOM Handler</button>
+            </div>
+            
+            <!--Event listners-->
+              <div class="main">
+                 <button class="btn" id="DomListener">Event Listner</button>
+            </div>
+           
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

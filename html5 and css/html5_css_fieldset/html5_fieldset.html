@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fieldset</title>
+        <style>
+            legend{
+                background-color: gainsboro;
+                text-transform: uppercase;
+                color: goldenrod;
+                border-radius: 10px;
+                border-color: gray;
+                padding:10px;
+            }
+            input{
+                border-style: solid;
+                border-color: gainsboro;
+                color:brown;
+                width: 240px;
+                margin-bottom: 15px;
+                border-top: transparent;
+                border-left: transparent;
+                border-right: transparent;
+            }
+           
+
+            label{
+                text-transform: capitalize;
+            }
+
+            fieldset{
+                border-radius: 10px;
+                width:300px;
+                border-color: gainsboro;
+                margin: 10px auto 10px auto;
+            }
+
+            .submit{
+                border-radius: 10px;
+                float: right;
+                color: white;
+                background-color:brown;
+                padding: 5px 0px 5px 0px;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>
+                newsletter
+            </legend>
+            <label for="name">name:</label>
+            <input name="name" type="text"><br>
+            <label for="email">email:</label>
+            <input type="email" name="email"><br>
+
+            <input class="submit" type="submit" value="Subscribe">
+
+        </fieldset>
+    </body>
+    <footer>
+
+    </footer>
+</html>

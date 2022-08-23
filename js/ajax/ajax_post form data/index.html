@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>Posting form data</title>
+    </head>
+    <style>
+        input{
+           width: 98%;
+           margin-bottom: 10px;
+        }
+        form{
+            padding: 10px;
+         margin: auto;
+         background-color: black;
+            width:200px;
+        border-color: orangered;
+         border-width: 10px;
+            margin-top:20px;
+           
+        }
+        input[type ='submit']{
+            width: 100px;
+            left: 100px;
+           background-color: orangered;
+            color:white;
+            border-color: orangered;
+        }
+    </style>
+    <body>
+       <form id="form_data">
+          <input type="text" placeholder="Enter Name" name="name" id="name">
+           <br>
+           <input type="text" placeholder="Enter Surname" name="surname" id="surname">
+            <br>
+           <input type="submit" value="Submit Data">
+        </form>
+    </body>
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="script.js"></script>
+</html>

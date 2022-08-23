@@ -1,0 +1,5 @@
+{
+    "Name":"John",
+    "Surname": "Snow",
+    "Salary": 19000
+}

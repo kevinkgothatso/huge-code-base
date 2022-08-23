@@ -1,0 +1,12 @@
+<div class="container">
+  <form (ngSubmit)="consoleShow()" [formGroup]="login"
+    style="background-color: darkgray; border-width: 2px; border-color: black; border-style: outset;">
+    Short Code FormGroup Controls:<br>
+    <input class="space" type="text" placeholder="enter name" name="name" formControlName="name"> <br>
+    <input class="space" type="text" placeholder="enter surname" name="surname" formControlName="surname">
+    <br>
+    <div>
+      <input class="space" type="submit" value="Submit" (click)=" status()">
+    </div>
+  </form>
+</div>

@@ -1,0 +1,117 @@
+body{
+    background:url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg') bottom right;
+    background-repeat: no-repeat;
+  
+    font-size: 16px;
+}
+.main{
+    margin: auto;
+    width: 80%;
+}
+.container-top{
+    margin: 50px 0px 20px 0px;
+    width: 100%;
+    height: 250px;
+    color:hsla(300, 43%, 22%, 0.8);
+
+}
+.col-top-1> p{
+    margin-block-start: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.col-top-1{
+    width: 40%;
+    margin-left: 1%;
+    display: inline;
+    float: left;
+  
+}
+.col-top-2 img{
+    margin-left: 5px;
+}
+.img-container{
+    margin-right: 20px;
+}
+.col-top-2{
+    display: inline;
+    float: left;
+    width:50%;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+}
+
+.rating-1 , .rating-2 , .rating-3{
+    background-color:   hsl(300, 24%, 96%);
+    margin-bottom: 20px;
+    height: 45px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.rating-2 {
+    position: relative;
+    left: 80px;
+    width:380px ;
+}
+
+.rating-3{
+    position: relative;
+    left: 140px;
+}
+
+.container-bottom div{
+    margin-left: 1%;
+    margin-right: 0%;
+}
+
+.rating-1{
+    display: block;
+    border: unset;
+    border-color: red;
+    border-width: 10px;
+}
+
+.container-bottom div{
+    /*Use descendent selector it with colors and text effect only*/
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.col-btm-2{
+    display: inline;
+    position: relative;
+    width: 30%;
+    float: left;
+     top: 25px;
+}
+
+.col-btm-3{
+    display: inline;
+    position: relative;
+    top: 35px;
+    width: 30%;
+    float: left;
+}
+
+.col-btm-1{
+    display: inline;
+    width: 30%;
+    float: left;
+}
+
+.img-box > img{
+    border-radius: 100px;
+}
+.img-box > span{
+    float: right;
+    position: relative;
+    left: -100px;
+    top: 10px;
+}
+
+

@@ -1,0 +1,19 @@
+#prizes {
+    margin: auto;
+    width: 600px;
+    background-color: grey;
+}
+
+h3{
+    background-color: lightblue;
+    color: orangered;
+}
+
+.blk > p {
+    background-color: transparent;
+    color: white;
+}
+
+.blk{
+    background-color: black;
+}

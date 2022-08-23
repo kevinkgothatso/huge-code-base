@@ -1,0 +1,24 @@
+<div class="main">
+  <!--property binding -->
+  <p>Property Binding:</p>
+   <div [innerText]="innerText"></div>
+   <input type="button" [value]="valueBtn"> <br>
+
+   <!-- style class binding -->
+  <p>Class Binding:</p>
+  <div [class]="single_class">Hello Single class</div>
+  <div [class]="Multiple_class">Hello Multiple class</div>
+  <div [class.redNew]="single">Hello class</div>
+  <div [class]="['black','redNew']">Mutiple Class Array</div>
+
+   <!-- attribute binding -->
+   <p>Attribute Binding:</p>
+  <input type="text" [attr.placeholder]="plc_holder"> <br>
+
+   <!-- style binding -->
+   <p>Style Binding: </p>
+   <div [style.backgroundColor]="'red'">Hello red Camel</div>
+   <div [style.background-color]="'red'">Hello red Dash</div>
+   <div [style]="mutiple_style">Hello multiple Style binding</div>
+
+</div>

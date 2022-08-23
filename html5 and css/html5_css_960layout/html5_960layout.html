@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>960 Layout</title>
+        <style>
+           nav, .feature{
+              background-color: gainsboro;
+              width: 100%;
+              margin-bottom: 15px;
+          }
+          .feature{
+              text-align: center;
+              height: 100px;
+          }
+          
+          .col-3{
+              display: inline;
+              width: 31%;
+              height: 200px;
+              float: left;
+              background-color: gainsboro;
+              margin: 1%;
+              text-align: center;
+                      }
+          ul li {
+              display: inline;
+              text-decoration: none;
+              list-style-type: none;
+              margin-left: 5px;
+              
+          }
+
+          nav ul{
+              text-align: center;
+          }
+
+          .footer{
+              text-align: center;
+              height: 50px;
+              background-color: gainsboro;}
+          .logo{
+              font-weight: bold;
+              text-align: center;
+              font-size: larger;
+          }
+          .ov{
+              overflow: auto;
+              /* height: 200px; */
+              /* margin-bottom: 15px; */
+          }
+        </style>
+    </head>
+    <body>
+        <div class="logo">Logo</div>
+       <nav>
+           <ul>
+               <li>home</li>
+               <li>product</li>
+               <li>services</li>
+               <li>about</li>
+               <li>contact</li>
+           </ul>
+       </nav>
+
+       <div class="feature">
+           feature
+       </div>
+
+       <div class="ov">
+           <div class="col-3">Coloumn 1</div>
+           <div class="col-3">Coloumn 2</div>
+           <div class="col-3">Coloumn 3</div>
+       </div>
+    
+    </body>
+    <footer class="footer">
+        &copy;Copyright 2011
+     </footer>
+</html>

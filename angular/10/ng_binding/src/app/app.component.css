@@ -1,0 +1,22 @@
+.main{
+  margin: auto;
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 1px 1px 1px black;
+  width: 65%;
+}
+
+
+p{
+  color: black;
+}
+
+.black{
+  background-color: black;
+}
+
+.redNew{
+  color: red;
+}

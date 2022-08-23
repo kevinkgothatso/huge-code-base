@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>CSS Selectors</title> 
+       <link rel="stylesheet" type="text/css" href="styles/global.css">
+       <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head>
+    <body>
+
+        <button>
+            <a href="pages/direct-child.html">Direct Child</a>
+        </button>
+        
+        <div class="container">
+            <p>Adjecent sibling</p>
+            <ul>
+                <li class="adj-child">facebook </li>
+                <li>twitter</li>
+                <li>snapchat</li>
+            </ul>
+        </div>
+        <div class="container">
+            <p>Multiple Selectors</p>
+             <h3>facebook</h3>
+             <h4>tiwtter</h4>
+             <h5>snapchat</h5>
+        </div>
+        <div class="container" id="descendant">
+            <p>Descendant</p>
+            <ul>
+                <li>facebook
+                    <ul>
+                        <li>instagram</li>
+                    </ul>
+                </li>
+                <li>twitter</li>
+                <li>snapchat</li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+    <head><title>Direct child</title>
+     <link href="" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        
+    </body>
+</html> -->

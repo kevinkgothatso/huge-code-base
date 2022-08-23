@@ -1,0 +1,20 @@
+<div>
+  <form (ngSubmit)="onSubmit()" [formGroup]="login"
+  style="background-color: gainsboro; border-width: 2px; border-color: black; border-style: outset;">
+    Nested FormGroup:<br>
+      <input class="space" type="text" placeholder="enter name" name="name" formControlName="name">
+       <div class="space">Length of name: {{valueChange}}</div>
+
+      <input class="space" type="text" placeholder="enter surname" name="surname" formControlName="surname">
+      <br>
+      Address:<br>
+      <form formGroupName="address">
+      <input class="space" type="text" placeholder="enter street" name="street" formControlName="street"><br>
+      <input class="space" type="text" placeholder="enter city" name="city" formControlName="city"><br>
+      <input class="space" type="text" placeholder="enter postal" name="postal" formControlName="postal"><br>
+    </form>
+      <div>
+        <input  class="space"  type="submit" value="Submit">
+      </div>
+  </form>
+</div>

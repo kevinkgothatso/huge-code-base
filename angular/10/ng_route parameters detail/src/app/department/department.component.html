@@ -1,0 +1,7 @@
+<div>
+  <p style="background-color: blue; width: 200px;"> Department List:</p>
+   <p *ngFor="let dept of departments" style="background-color: gray; margin: 1px; width: 200px;"
+   (click)="selectMethod(dept)">
+     {{dept.name}}
+   </p>
+<div>

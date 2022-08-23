@@ -1,0 +1,9 @@
+<div>
+     <p>From Component Constuctor Service:</p>
+     <ul>
+       <li *ngFor="let hero of heroList">ID:{{hero.id}}   Name:{{hero.name}}    Location: {{hero.location}}</li>
+     </ul>
+     <input type="button" value="Change Value" (click)="changeMethod()">
+</div>
+<app-component-prov></app-component-prov>
+

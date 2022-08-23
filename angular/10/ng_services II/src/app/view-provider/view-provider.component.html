@@ -1,0 +1,17 @@
+<div class="parent">
+  <p> View Provider:</p>
+  <div>
+    <ul>
+      <li *ngFor="let hero of heroes">{{hero.id}} : {{hero.name}}</li>
+    </ul>
+  </div>
+  <div class="child">
+    Child:
+    <app-view-provider-child>
+      <ng-content select="selector"></ng-content>
+    </app-view-provider-child>
+    Grandchild:
+    <app-grand-child-view></app-grand-child-view>
+    <input type="button" value="Change View Provider" (click)="viewProviderMethod()">
+  </div>
+</div>

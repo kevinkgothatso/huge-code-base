@@ -1,0 +1,23 @@
+<!-- form group, formcontrol, build-in validators and custom validators -->
+<div style="margin: 20px; background-color: yellowgreen;">
+  <p style="font-weight: 300;color: white;">Reactive Form Validators:</p>
+  <form [formGroup]="login" (ngSubmit)="console()">
+
+      <input type="text" placeholder="Name"  style="margin: 10px;" formControlName="name" [class.error]="login.controls.name.dirty">
+
+      <span *ngIf="login.controls.name.errors?.minlength && login.controls.name.touched" style="color: white;">
+          name less than or eqaul to 5 characters
+      </span>
+
+      <input type="text" placeholder="Password" style="margin: 10px;" formControlName="password">
+
+      <input type="text" placeholder="other" style="margin: 10px;" formControlName="other">
+
+      <span *ngIf="login.controls.other.hasError('customValidatorVariable') && login.controls.other.dirty" style="color: white;">
+          other must be 645
+      </span>
+
+      <input type="submit" value="Submit">
+
+  </form>
+</div>

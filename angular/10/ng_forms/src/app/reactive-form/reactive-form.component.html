@@ -1,0 +1,9 @@
+<!-- basic reactive form, formGroup , formcontrol and formCoontrolName -->
+<div style="margin: 20px; background-color: lightgreen;">
+  <p style="font-weight: 300;color: white;">Reactive Form:</p>
+  <form [formGroup]="login" (ngSubmit)="console()">
+      <input type="text" placeholder="Name"  style="margin: 10px;" formControlName="name">
+      <input type="text" placeholder="Password" style="margin: 10px;" formControlName="password">
+      <input type="submit" value="Submit" (click)="properties()">
+  </form>
+</div>

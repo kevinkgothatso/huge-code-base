@@ -1,0 +1,10 @@
+<!-- Basic template driven form -->
+<div style="margin: 20px; background-color: darkgreen;">
+  <p style="font-weight: 300;color: white;">Template Driven Form</p>
+  <form (ngSubmit)="console()">
+      <input type="text" placeholder="Name" [(ngModel)]="name" name="name" style="margin: 10px;">
+      <input type="text" placeholder="password" [(ngModel)]="password" name="password" style="margin: 10px;">
+      <input type="submit" value="Submit">
+  </form>
+</div>
+

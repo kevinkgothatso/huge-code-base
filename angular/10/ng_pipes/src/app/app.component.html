@@ -1,0 +1,15 @@
+<div class="main" >
+      <p>{{num | currency}}</p>
+      <p>{{str| uppercase}}</p>
+      <p>{{longStr| slice: 1: 5 | uppercase}}</p>
+      <p>Powered number: {{num | power:2}}</p>
+
+     <!-- <div>
+          <p *ngFor="let name of names" >{{name| uppercase}}</p>
+     </div> -->
+     <div>
+      <p *ngFor="let name of names | uppercase" >{{name}}</p>
+      </div>
+      <p>{{num | multiply:100}}</p>
+</div>
+

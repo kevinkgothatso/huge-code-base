@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>@Font-family</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+        
+        body div {
+            box-shadow: 5px 5px 5px 5px gainsboro;
+            padding: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .header-1 {
+            /*font-family*/
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-style: normal;
+            text-transform: uppercase;
+            text-shadow: 1px 3px gainsboro;
+
+        }
+
+        .header-2 {
+            /*font-face*/
+            font-weight: bolder;
+            color: blue;
+            text-transform: uppercase;
+            font-family: 'Akronim-Regular';
+            text-shadow: 1px 3px gainsboro;
+
+        }
+
+        @font-face {
+            font-family: 'Akronim-Regular';
+            src: url('fonts/Akronim-Regular.ttf');
+        }
+
+        .text-1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .text-2 {
+            letter-spacing: 0.5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="viewport">
+        <h1 class="header-1">Have a fun day</h1>
+        <p class="text-1">To this list of ingredients, I would add the viewport meta element, which
+            makes the width of the web page match the width of the screen. That’s where
+            we’ll begin our tour of the mechanics of RWD</p>
+    </div>
+    <div>
+        <h1 class="header-2">Have a fun day a really fun day</h1>
+        <p class="text-2">To this list of ingredients, I would add the viewport meta element, which
+            makes the width of the web page match the width of the screen. That’s where
+            we’ll begin our tour of the mechanics of RWD</p>
+    </div>
+</body>
+
+</html>

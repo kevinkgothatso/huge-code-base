@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 2</title>
+        <style>
+           
+            label {
+              width: 110px;
+              float: left;
+            }
+            input, textarea{
+                margin-bottom: 3px;
+                
+            }
+           
+            select{
+                width: 100px;
+            }
+           
+            textarea{
+                
+                height: 100px;
+            }
+           .label{
+               visibility: hidden;
+           }
+           
+           div{
+               border-style: solid;
+               border-color: grey;
+               border-width: 1px;
+               padding:10px;
+               width: 300px;
+               margin: 10px auto 10px auto;
+           }
+        </style>
+    </head>
+    <body>
+        
+    <div>
+     <label for="text">Text input:</label>
+     <input name="text" type="text"> <br>
+
+     <label for="password">Password:</label>
+     <input name="password" type="password"><br>
+
+     <label for="textarea">TextArea:</label>
+     <textarea name="textarea" width="100">
+
+     </textarea><br>
+
+     <label for="selectbox">Selectbox</label>
+     <select name="selectbox">
+         <option value="Option 1">Option 1</option>
+         <option value="Option 2">Option 2</option>
+         <option value="Option 3">Option 3</option>
+     </select><br>
+
+     <!--Radio-->
+     <label for="radios">Radio Buttons</label>
+     <input type="radio" name="radios" value="Radio 1" checked="checked">Radio 1
+     <input type="radio" name="radios" value="Radio 2">Radio 2<br>
+
+     <label for="checkbox" class="label" >checkbox</label>
+     <input type="checkbox" name="checkbox" value="Checkbox">Checkbox<br>
+
+     <input type="submit" value="Submit">
+    </div>
+  
+    </body>
+    <footer>
+
+    </footer>
+</html>

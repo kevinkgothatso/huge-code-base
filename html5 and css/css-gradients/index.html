@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Gradients</title>
+    <style>
+        .linear,
+        .linear-button,
+        .linear-text {
+            height: 300px;
+            width: 50%;
+            margin: auto;
+            margin-bottom: 20px;
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .linear {
+            background-image: linear-gradient(to right, red, orange, yellow);
+        }
+
+        .linear-button>button {
+             color: white;
+            position: relative;
+            top: 150px;
+            left: 40%;
+            border-radius: 10px;
+            border: none;
+            text-transform: uppercase;
+            height: 50px;
+            padding: 20px;
+            font-weight: bold;
+            transition-property: background;
+            transition-duration: 3s;
+            transition-timing-function: ease-out;
+            background: linear-gradient(to right, red, orange, yellow);
+        }
+
+        .linear-button>button:hover {
+            background: linear-gradient(to right, yellow, orange, red);
+        }
+
+        .linear-text {
+            text-align: center;
+        }
+
+        .linear-text>h1 {
+            position: relative;
+            top: 150px;
+            /* font-size: initial; */
+            background: linear-gradient(to right, yellow, orange, red);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linear">
+
+    </div>
+    <div class="linear-button">
+        <button>checkout</button>
+    </div>
+    <div class="linear-text">
+        <h1>
+            Home is where the heart is.
+        </h1>
+    </div>
+</body>
+
+</html>

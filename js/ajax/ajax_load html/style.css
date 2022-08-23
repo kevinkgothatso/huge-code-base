@@ -1,0 +1,56 @@
+#content{
+   margin: auto;
+   background-color: gainsboro;
+   width: 300px;
+   height: 300px;
+   border: none;
+}
+
+#temp_cont{
+    background-color: lightblue;
+    font-weight: 300;
+    font-size: medium;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 28px;
+    text-align: center;
+    margin: auto    
+}
+
+.para{
+    position: relative;
+    top: 100px;
+}
+
+h2{
+    position: relative;
+    top: 80px;  
+}
+
+#replace_cont{
+    background-color: #080808db;
+    font-weight: 300;
+    font-size: medium;
+    color: azure;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 28px;
+    text-align: center;
+    margin: auto;
+}
+
+#btn{
+    width:300px;
+    color:azure;
+    background-color: #080808db;
+    cursor: pointer;
+}
+
+.div_btn{
+        margin: auto;
+        padding-top: 10px;
+        width: 300px;
+        border: none;
+}

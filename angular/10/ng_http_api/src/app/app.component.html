@@ -1,0 +1,23 @@
+<div>
+   <table>
+     <tr>
+     <th>name</th>
+     <th>name</th>
+     <th>surname</th>
+     <th>gender</th>
+     </tr>
+     <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+      <td>{{user.surname}}</td>
+      <td>{{user.gender}}</td>
+     </tr>
+   </table>
+</div>
+
+<div>
+   <input type="button" value="Post item" (click)="postMethod()" style="margin-right: 10px;">
+   <input type="button" value="put item" (click)="putMethod()" style="margin-right: 10px;">
+   <input type="button" value="patch item" (click)="patchMethod()" style="margin-right: 10px;">
+   <input type="button" value="Delete item" (click)="deleteMethod()">
+</div>

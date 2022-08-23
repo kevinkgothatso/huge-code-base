@@ -1,0 +1,9 @@
+<div>
+    Parent to child communication:
+   <p>Name: {{name}}</p>
+   <p>Surname: {{surname}}</p>
+</div>
+<div>
+    <input type="button" value="Press here" (click)="eventMethod.emit()">
+    <input type="button" value="Press Method 2" (click)="eventMethod_2.emit()">
+</div>

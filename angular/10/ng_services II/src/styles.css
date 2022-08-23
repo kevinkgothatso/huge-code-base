@@ -1,0 +1,13 @@
+.parent{
+  background-color:gray;
+  color: black;
+}
+
+.child{
+  background-color: green;
+}
+
+p{
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -1,0 +1,3 @@
+js_nameofproject
+js_jquery_nameofproject
+js-ts_nameofproject

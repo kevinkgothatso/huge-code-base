@@ -1,0 +1,12 @@
+var bolValue = true;
+console.log(bolValue);
+var str = "Man United";
+console.log(str);
+var number = 4000;
+console.log(number);
+var body = document.getElementsByTagName('body')[0];
+var ul = document.createElement('ul');
+var li = document.createElement('li');
+li.innerText = str;
+ul.appendChild(li);
+body.appendChild(ul);

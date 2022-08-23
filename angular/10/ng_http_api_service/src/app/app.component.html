@@ -1,0 +1,16 @@
+<div>
+  Users:
+  <ul>
+    <li *ngFor="let user of users">
+      {{user.id}} {{user.name}} {{user.surname}} {{user.gender}}
+    </li>
+  </ul>
+</div>
+
+
+<div>
+  <input type="button" value="Post Data" (click)="post()" style="margin-right: 10px;">
+  <input type="button" value="Put Data" (click)="put()" style="margin-right: 10px;">
+  <input type="button" value="Patch Data" (click)="patch()" style="margin-right: 10px;">
+  <input type="button" value="Delete Data" (click)="deletex()">
+</div>

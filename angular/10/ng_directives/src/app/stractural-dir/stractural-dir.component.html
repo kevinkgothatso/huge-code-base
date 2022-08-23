@@ -1,0 +1,29 @@
+<!-- ngif -->
+<div>
+     <p *ngIf="variableNgIf ==='Shalow-work'">{{variableNgIf}}</p>
+     <p *ngIf="variableNgIf !=='Shalow-workx'">Deep-work</p>
+</div>
+<!-- ngFor -->
+<div>
+    <ul>
+        <li *ngFor="let socails of variableNgFors"
+         style="list-style-type: none;">{{socails}}</li>
+    </ul>
+</div>
+<!-- ngFor using index -->
+<div>
+  <ul>
+      <li *ngFor="let socails of variableNgFors, let x = index, let oddR = odd, let evenR = even"
+       style="list-style-type: none;" [ngClass]="{odd: oddR, even: evenR}">{{x}}:{{socails}}</li>
+  </ul>
+</div>
+<!-- ngSwitch -->
+<div [ngSwitch]="variableSwitch">
+    <div *ngSwitchCase="variableNgFors[0]">{{variableNgFors[0]}}</div>
+    <div *ngSwitchCase="variableNgFors[1]">{{variableNgFors[1]}}</div>
+    <div *ngSwitchCase="variableNgFors[2]">{{variableNgFors[2]}}</div>
+    <div *ngSwitchCase="variableNgFors[4]">{{variableNgFors[3]}}</div>
+</div>
+<div>
+  <p highlight>Decorate me</p>
+</div>
