@@ -1,0 +1,2 @@
+Has an Array with no name, which has to beas soon as its declared 
+Usess for each statement 

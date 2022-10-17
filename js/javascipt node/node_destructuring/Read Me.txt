@@ -1,0 +1,2 @@
+Ternary operator using if statements, simplifying
+Destructuring an array and getting values without using a forloop
