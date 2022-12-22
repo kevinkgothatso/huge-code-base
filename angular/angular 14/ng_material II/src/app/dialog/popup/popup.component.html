@@ -1,0 +1,15 @@
+
+<h1 mat-dialog-title>{{data.show}}</h1>
+<mat-dialog-content>
+        <!-- contents of the dialog -->
+        <form [formGroup]="login">
+            <input type="text" placeholder="name" formControlName="name">
+            <input type="text" placeholder="surname" formControlName="surname">
+        </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <!-- actions in need to complete after dailog popup -->
+    <button [mat-dialog-close]="true">Close</button>
+    <button (click)="closePopUp()">Pass data</button>
+</mat-dialog-actions>

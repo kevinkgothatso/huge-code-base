@@ -1,0 +1,10 @@
+.button-icon {
+    position: relative;
+    top: -0.7rem !important;
+    right: -0.1rem;
+}
+
+.wrapper{
+    height: 2rem !important;
+    width: 2rem !important;
+}

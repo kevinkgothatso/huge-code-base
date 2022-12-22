@@ -1,0 +1,6 @@
+
+<div *ngFor="let person of obs | async">
+         {{person.name}}
+</div>
+
+<mat-paginator [pageSizeOptions]="[3]"></mat-paginator>

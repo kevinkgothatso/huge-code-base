@@ -1,0 +1,5 @@
+<div class="example-card" *ngFor="let card of obs | async">
+       card title: {{card.title}}
+</div>
+     
+<mat-paginator [pageSizeOptions]="[3]"></mat-paginator>
