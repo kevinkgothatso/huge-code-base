@@ -9,7 +9,10 @@
 # Node
 */node_modules
 *node_modules
+*.angular/cache
+*.angular
 *npm-debug.log
+*.angular
 *yarn-error.log
 
 # IDEs and editors
